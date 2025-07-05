@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hey My Champ 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="popup">
+    <h1>Hi My Love ❤️</h1>
+    <p id="quote">"No matter how strong you grow, your smile will always be my favorite strength."</p>
+    <button onclick="newQuote()">New Love Quote 💌</button>
+
+    <!-- Slideshow -->
+    <div class="slideshow-container">
+      <img id="slideshow-image" src="images/us.jpeg" alt="Slideshow Image">
+      <p id="caption">You and me 💑</p>
+    </div>
+
+    <!-- Hug Game -->
+    <h2>Tap Me for a Hug 💟</h2>
+    <div class="game-box" onclick="increaseScore(event)">
+      <p id="score">Hugs Sent: 0</p>
+    </div>
+
+    <!-- Birthday Countdown -->
+    <h2>🎉 Countdown to Your Birthday 🎂</h2>
+    <p id="countdown">Loading...</p>
+
+    <p class="signature">With all my love,<br><strong>Sampriti 💞</strong></p>
+  </div>
+
+  <!-- Optional Background Music -->
+  <audio autoplay loop>
+    <source src="music/lovebg.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
